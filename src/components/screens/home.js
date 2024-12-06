@@ -97,6 +97,7 @@ function Home() {
               <p><strong>Detalles del Dispositivo</strong></p>
               <p><strong>IMEI:</strong> {deviceData.imei}</p>
               <p><strong>Teléfono:</strong> {deviceData.numTel}</p>
+              <p><strong>Chofer:</strong> {deviceData.nombre}{deviceData.apellidos}</p>
             </div>
           )}  
           </div>

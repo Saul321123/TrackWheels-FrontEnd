@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import '../../assets/css/Login.css'
 
 const Login = () => {
   const [nombreUsuario, setNombreUsuario] = useState('');
